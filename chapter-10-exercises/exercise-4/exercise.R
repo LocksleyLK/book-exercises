@@ -38,4 +38,4 @@ min_row <- grants["min_grant", ]
 print(min_row$grant_title)
 
 # How many grants were awarded in 2010?
-print(sum(grants[, "start_year" = 2010]))
+sum(grants[, "start_year" = 2010])

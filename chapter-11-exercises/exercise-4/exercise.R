@@ -52,7 +52,7 @@ mean(delay_while_flying, na.rm = TRUE)
 sea_flights <- data.frame(gain_in_air)
 
 # On average, did flights to SeaTac gain or loose time?
-mean(sea_flights)
+print(mean(sea_flights))
 
 # Consider flights from JFK to SEA. What was the average, min, and max air time
 # of those flights? Bonus: use pipes to answer this question in one statement
